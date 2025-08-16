@@ -13,7 +13,7 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 24px;
+    padding: 48px;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
@@ -57,11 +57,6 @@ body {
     gap: 12px;
 }
 
-.description {
-    font-size: 14px;
-    font-weight: 400;
-}
-
 .main-items {
     display: flex;
     flex-direction: column;
@@ -74,19 +69,63 @@ body {
     gap: 12px;
 }
 
-.main-item-content {
+.content {
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
 
-.subtitle {
+.content-subtitle {
     font-size: 16px;
     font-weight: 600;
 }
 
-.description_date {
+.content-text {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.content-date {
     font-size: 14px;
     font-weight: 400;
     color: #666;
+}
+
+.content-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.content-list li {
+    font-size: 14px;
+    font-weight: 400;
+    list-style: disc;
+}
+
+.content-list-skills li {
+    list-style: inside;
+    list-style-type: square;
+}
+
+.content-list-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-left: 24px;
+}
+
+.content-subtitle-secondary {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.content-items {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.content-text-secondary {
+    font-style: italic;
 }
