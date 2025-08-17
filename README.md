@@ -1,8 +1,8 @@
-# cv_ru
-
 ## Resume for courses
 
 My resume in HTML, CSS technologies.
+
+[View resume at the link](https://xyzelena.github.io/cv_ru/)
 
 Contains information:
 
